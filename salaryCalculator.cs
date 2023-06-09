@@ -19,7 +19,7 @@ class SalaryCalculator
 
             do
             {
-                Console.WriteLine("Enter the class of the employee:");
+                Console.WriteLine("Enter the class of the employee ( staff, intern , commissionbased , hourlypaid ):");
                 kindOfStaff = Console.ReadLine();
 
                 string[] employeeTypes = new string[] { "staff", "intern", "hourlypaid", "commissionbased" };
